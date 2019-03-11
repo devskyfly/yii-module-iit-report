@@ -6,6 +6,8 @@ use yii\filters\AccessControl;
 
 class Module extends \yii\base\Module
 {
+    const CSS_NAMESPACE='devskyfly-yii-iit-report';
+    const TITLE="Модуль \"Отчетность\"";
     
     public function init()
     {
