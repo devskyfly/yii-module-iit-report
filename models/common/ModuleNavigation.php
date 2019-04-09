@@ -15,6 +15,7 @@ class ModuleNavigation extends AbstractModuleNavigation
         return
         [
             ['name'=>'Тарифы','route'=>'/iit-report/rates/'],
+            ['name'=>'Услуги','route'=>'/iit-report/services/'],
             ['name'=>'Регионы','route'=>'/iit-report/regions/'],
         ];
     }
