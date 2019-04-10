@@ -1,11 +1,10 @@
 <?php
 namespace devskyfly\yiiModuleIitReport\components;
 
-use yii\base\BaseObject;
 use devskyfly\php56\types\Obj;
-use devskyfly\php56\types\Str;
 use devskyfly\yiiModuleIitReport\models\Rate;
 use devskyfly\yiiModuleIitReport\models\Region;
+use yii\base\BaseObject;
 
 class RatesManager extends BaseObject
 {
