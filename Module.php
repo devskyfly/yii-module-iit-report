@@ -12,6 +12,7 @@ class Module extends \yii\base\Module
     public function init()
     {
         parent::init();
+        Yii::setAlias("@devskyfly/yiiModuleIitReport", __DIR__);
         if(Yii::$app instanceof \yii\console\Application){
             $this->controllerNamespace='devskyfly\yiiModuleIitReport\console';
         }
